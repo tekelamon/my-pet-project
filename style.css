@@ -1,0 +1,63 @@
+/*
+Color Pallete
+
+0075A2 - dark blue
+CDEDF6 - light blue
+1E1E24 - blackish
+F39237 - dark green
+8F8389 - gray
+*/
+
+/* Basic design */
+body {
+    background-color: #CFEDF6 ;
+    color: #1E1E24 ;
+
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+}
+
+/* Centering */
+header, .image-container, footer {
+    text-align: center;
+}
+
+nav {
+    background-color: #8F8389 ;
+}
+
+#logo {
+    color: white;
+}
+
+/* round out image */
+img {
+    border-radius: 100%;
+    height: 35rem;
+    width: 35rem;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+    margin: 2rem 0;
+}
+
+/* enlarge image on hover */
+img:hover {
+    border-radius: 100%;
+    height: 38rem;
+    width: 38rem;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+    margin: 2rem 0;
+}
+
+/* Small spacing for headers */
+h2 {
+    padding: 0 0 0 2rem;
+}
+
+/* Cut edges and center */
+section {
+    width: 90%;
+    /* Double bar for visual break */
+    border-top: 5px double #0075A2;
+    margin: 0 auto;
+}
